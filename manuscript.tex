@@ -1,0 +1,63 @@
+% !TeX program = lualatex
+
+
+\documentclass[a4paper, 9pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage[english]{babel}
+
+%\setmainfont{Times New Roman}
+% Load blindtext package for dummy text
+\usepackage{blindtext}
+% Load the setspace package
+\usepackage{setspace}
+% Using \doublespacing in the preamble 
+% changes the text to double-line spacing
+\doublespacing
+
+\usepackage[style=apa]{biblatex} %Imports biblatex package
+\addbibresource{bibliography.bib} %Import the bibliography file
+
+\usepackage{graphicx} % Required for inser\usepackage{multicol}ting images
+\usepackage{multirow}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+	citecolor=cyan,
+	pdfpagemode=FullScreen,
+}
+\usepackage{multicol}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{easyReview} % for \comment, \alert, etc.
+\usepackage{fancyhdr}
+\usepackage[paper=a4paper, inner=2cm, outer=2cm, top=2cm, bottom=1.5cm]{geometry}
+\usepackage{paralist}
+
+%\usepackage[switch, modulo]{lineno}
+%\linenumbers	
+%\modulolinenumbers[1]
+
+% \setlength{\columnsep}{1cm}
+\pagestyle{fancy}
+
+\renewcommand{\footnoterule}{\noindent\smash{\rule[3pt]{\textwidth}{.4pt}}}
+\newcommand{\refs}{(\alert{REFS})}
+
+\usepackage{authblk}
+
+\title{Critique of Critical Criticism: a review of uses and abuses of theory criticisms in ecology and economics}
+
+
+\begin{document}
+		
+	\maketitle
+	
+	\begin{abstract}
+		
+	\end{abstract}
+	
+\end{document}
