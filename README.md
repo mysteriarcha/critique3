@@ -1,4 +1,4 @@
-## README
+# README
 
 This is the repository for the manuscript: 
 "Critique of Critical Criticisms: a review of the uses and abuses of ecological and economic theories as well as their alternatives".
